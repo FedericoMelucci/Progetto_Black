@@ -1,0 +1,109 @@
+* {
+    font-family: 'Orbitron', sans-serif;
+}
+nav {
+    border-bottom: 2px solid white;
+    
+}
+
+.text-blue {
+    color: #2B9DF4;
+}
+header{
+    margin-top: 58px !important;
+}
+.img-bg {
+    background: linear-gradient(to right, black,rgba(8, 8, 8, 0.603), black) ,url(./Black/Black/media/moon.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.position-custom {
+    top:85%;
+    left: 50%;
+
+    
+}
+.border-custom {
+    border-bottom: 1px solid  #2b9df4;
+    width: 100%; 
+}
+
+.spazio {
+    height: 220px;
+}
+
+.h2-custom {
+    color: #2b9df4;
+}
+.border-custom1 {
+    border-bottom: 1px solid #2b9df4;
+}
+.rocket-custom {
+    background-image: url(./Black/Black/media/missile-2027068_1280.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+@media screen and (max-width:992px) {
+    .rocket-text {
+        color: #0d3b66 !important;
+        font-weight: bold !important;
+    }
+    .rocket-custom {
+        margin-top: -100px;
+    }
+    .title-custom 
+    {
+     justify-content: flex-start !important;
+     align-items: center;
+     padding-top: 20px;
+   }
+}
+
+.go-to {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+.div-custom {
+    display: flex;
+    justify-content: end;
+}
+.div-to::after{
+    content: '';
+    position: absolute;
+    right: 0.001;
+    top: 0.001;
+    width: 5rem;
+    height: 2.5rem;
+    border: 3px solid black;
+    border-radius: 10px;
+} 
+.div-to{
+    border: 2px solid #2B9DF4;
+    position: relative;
+    width: 5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+footer {
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 95%), url(./Black/Black/media/sunrise-1765027_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+.custom-border {
+    border-top: 5px solid #2b9df4;
+    width: 600px;
+    border-image: linear-gradient(to right, black,#2b9df4, black) 1;
+}
+.custom-gradient {
+    
+    height: 100px;
+}
